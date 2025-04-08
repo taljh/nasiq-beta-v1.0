@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
+    "export": "next build && next export"
     "start": "next start"
+    
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
